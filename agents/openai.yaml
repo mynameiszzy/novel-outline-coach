@@ -1,0 +1,7 @@
+interface:
+  display_name: "小说大纲教练"
+  short_description: "用雪花法、多线结构与逻辑质疑完善小说大纲"
+  default_prompt: "使用 $novel-outline-coach 帮我从现有灵感开始完善小说大纲；当我没有概念时，请提供几个有区别的选项。"
+
+policy:
+  allow_implicit_invocation: true
