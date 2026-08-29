@@ -4,14 +4,27 @@ Use this protocol whenever the author must make a creative decision or says they
 
 ## Default interaction
 
-- Ask one high-leverage question per turn; ask at most two when the decisions are tightly coupled.
+- Do not turn outline development into an indefinite sequence of multiple-choice turns. Prefer a provisional artifact followed by targeted revision.
+- Ask only questions whose answers materially change the current outline layer. Batch 3–5 independent decisions when that is more efficient; separate only genuinely interdependent hinges.
 - If the author already has a clear answer, refine it instead of forcing a menu.
 - If the author is uncertain, offer 3–5 genuinely different options grounded in confirmed project facts.
-- Explain each option's likely effect on plot engine, character arc, tone, pacing, or later constraints.
+- Keep each option to its decisive tradeoff by default. Expand consequences only when the choice is structurally costly or the author asks.
 - Mark one recommendation when evidence supports it and explain why. A recommendation is not a decision.
 - Always allow `mix`, `custom answer`, and `decide later` without treating them as failures.
 - Accept answers outside the menu. Do not keep the author inside an artificial decision tree.
 - Record rejected directions so they are not repeatedly suggested.
+
+## Decision budget and layer guard
+
+Before asking, classify the missing information:
+
+1. **Blocking** — the next useful outline artifact would be misleading without it. Ask now.
+2. **Material but non-blocking** — draft a recommended candidate and invite correction.
+3. **Local or cosmetic** — defer it until the relevant character, chapter, or scene layer.
+
+Use no more than 3–5 author decisions to reach each major artifact. After three consecutive turns dominated by questions, stop and produce an interim synthesis or outline from the available answers.
+
+Before a provisional one-paragraph synopsis exists, avoid questions about individual rescue scenes, named minor officers, fight choreography, local symbolism, or other scene mechanics. Exceptions: the user requested that scene, or the scene determines the premise or a major turn.
 
 ## Option quality
 
@@ -34,13 +47,17 @@ If all options are rejected, ask what felt wrong about them, preserve the negati
 
 Use when the author has no concept. Offer concrete possibilities with low pressure. Do not begin by attacking missing logic.
 
-### Standard
+### Draft first
 
-Use by default. Ask one question, explain options and consequences, then advance after confirmation.
+Use by default for a vague premise or a user who wants visible progress. Summarize confirmed facts, select reasonable candidate assumptions for non-blocking gaps, and provide a provisional story promise plus beginning-to-end skeleton. End with only the few corrections that would most change it.
+
+### Standard co-design
+
+Use when the author prefers collaborative development. Ask one blocking hinge or one compact batch of independent decisions, then update an outline artifact. Do not spend more than three consecutive turns collecting answers without showing the accumulated result.
 
 ### Fast
 
-Use only when the author requests batching. Ask 3–5 numbered decisions at once, each with concise options. Do not use for interdependent structural decisions.
+Use when the author requests batching, gives terse option answers, is testing the skill, or worries about length. Ask 3–5 concise structural decisions at once when required; otherwise make labeled candidate assumptions and deliver the draft. State an approximate remaining-turn count when useful.
 
 ### Deep dive
 
@@ -59,6 +76,8 @@ Grilling is a focused interview, not hostility. When an answer remains vague, te
 
 Do not grill an early seed as if it were a finished outline. Increase pressure at stage boundaries and when the author explicitly asks for it.
 
+During early exploration, record suspected issues without opening a new interrogation branch. At the first complete synopsis, audit only the 3–5 problems most likely to break causality, motivation, stakes, or the ending.
+
 ## Response pattern
 
 Use a compact form:
@@ -74,4 +93,4 @@ Use a compact form:
 **推荐 B**：它同时解决紧迫性和主角主动性。
 ```
 
-After the author chooses, state whether the answer is a candidate or confirmed decision and note the most important downstream consequence.
+After the author chooses, state whether the answer is a candidate or confirmed decision and note only the most important downstream consequence. When several answers form a coherent layer, show the updated artifact instead of immediately asking another isolated question.
