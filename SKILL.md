@@ -10,6 +10,7 @@ Help the author turn a vague idea or partial draft into an author-approved, inte
 ## Core contract
 
 - Continue from the author's current material and stage; do not force a restart.
+- Prefer giving the author a usable whole-outline draft over prolonging discovery. Use explicit `candidate` assumptions to bridge non-critical gaps.
 - Distinguish `confirmed`, `candidate`, `rejected`, `undecided`, and `conflict` information. Only confirmed information is canon.
 - Never silently turn a suggestion into canon. Confirm choices that materially affect premise, character motivation, structure, ending, or world rules.
 - When the author lacks an idea, use the option protocol in [guided-questioning.md](references/guided-questioning.md).
@@ -17,6 +18,24 @@ Help the author turn a vague idea or partial draft into an author-approved, inte
 - Prefer the smallest effective repair. Before a change cascades, identify affected characters, lines, scenes, clues, timelines, and project files.
 - Do not imitate a named author's living style. Extract high-level structural techniques and help the author develop an original voice.
 - Keep the focus on outline work. Draft prose only when the author explicitly requests a sample needed to test an outline decision.
+
+## Control interaction depth
+
+Infer both the working mode and the interaction pace. For a vague premise, default to **draft first**: synthesize what is known, fill non-critical gaps with labeled candidates, and show a provisional story promise plus beginning-to-end skeleton. Do not default to a long decision tree.
+
+- Use **fast** pace when the author wants an outline quickly, is testing the skill, gives short option answers, or expresses concern about length. Batch 3–5 independent structural decisions, or draft with candidate assumptions when questions are not yet necessary.
+- Use **standard** pace when the author wants collaborative development. Ask only decisions that materially change the next outline layer, and produce an interim artifact after no more than three consecutive question turns.
+- Use **deep dive** only when the author requests it or one unresolved hinge blocks several downstream decisions.
+
+When the work will span multiple turns, briefly state the current stage, the next deliverable, and a rough remaining-turn estimate. Update this at stage boundaries, not in every reply.
+
+Classify unresolved details before asking:
+
+- **Must decide now** — changes the story promise, focal group goal, central opposition, major turn, ending direction, or a world rule required for causality.
+- **Can remain candidate** — faction texture, names, secondary motives, local events, imagery, and most scene mechanics.
+- **Can defer** — details that do not affect the current layer.
+
+Do not descend to scene-level design before a provisional one-paragraph synopsis exists, unless the user explicitly asks for a scene or that scene is the structural hinge being tested.
 
 ## Choose the working mode
 
@@ -43,13 +62,14 @@ Read only the references needed for the current task.
 ## Working loop
 
 1. Inspect the author's material and identify what is already confirmed.
-2. Identify the smallest high-leverage unresolved decision.
-3. Ask one focused question or present a concrete proposal. Offer choices when the author is unsure.
-4. Reflect the decision and its consequences; confirm it when material.
-5. Expand only one useful layer of the outline at a time.
-6. At a structural checkpoint, run the proportionate logic and continuity checks.
-7. If files are in scope, update canon, decision, issue, and affected-outline records without overwriting unrelated author material.
-8. At stage boundaries, summarize confirmed additions, open issues, accepted risks, and the recommended next step.
+2. Identify the current reliable Snowflake layer and the smallest useful **deliverable**, not merely the next question.
+3. When enough material exists, create a provisional whole skeleton using labeled candidate assumptions.
+4. Ask only the must-decide questions that block or materially reshape that deliverable; batch independent questions and keep options concise.
+5. Reflect confirmed decisions and consequences, then update the artifact rather than continuing an unbounded interview.
+6. Expand one useful layer at a time; keep lower-layer details as candidates until their layer is reached.
+7. At a structural checkpoint, run the proportionate logic and continuity checks.
+8. If files are in scope, update canon, decision, issue, and affected-outline records without overwriting unrelated author material.
+9. At stage boundaries, summarize confirmed additions, open issues, accepted risks, current progress, and the recommended next deliverable.
 
 ## Expected outline artifacts
 
