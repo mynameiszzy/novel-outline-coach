@@ -2,6 +2,14 @@
 
 Use the Snowflake Method as a progressive expansion process. Continue from the most developed reliable layer. Do not make the author repeat completed work, and do not force every project through every optional step.
 
+## Expansion discipline
+
+- Treat each stage as a useful artifact, not a mandatory interview checklist.
+- When confirmed information is incomplete but sufficient for a coherent draft, fill non-blocking gaps with clearly labeled candidate assumptions.
+- Preserve detail at its proper layer. Do not solve chapter or scene mechanics while the story promise and one-paragraph synopsis are still provisional, unless the user explicitly asks or the detail is a major structural hinge.
+- Limit must-decide questions to those that would materially change the current artifact. Batch independent decisions and defer local texture.
+- At a stage boundary, show the artifact, identify at most 3–5 high-impact uncertainties, and give a rough estimate of the remaining stages or interaction rounds.
+
 ## Stage 0: project frame
 
 Capture only information that changes outline decisions:
@@ -25,11 +33,15 @@ Test:
 - Is there a change or conflict engine rather than only a setting?
 - Does it distinguish this story from a generic premise?
 
+If enough material exists, propose a candidate sentence immediately. Do not require every component to be individually confirmed first.
+
 ## Stage 2: one-paragraph synopsis
 
 Expand into setup, major escalating turns or disasters, decisive climax, and ending. The outline should know the ending even when the finished story will conceal it from readers.
 
 Do not mechanically assign one turn to each act. Ensure every major turn changes the protagonist's available options and makes the next phase necessary.
+
+This is the first whole-story checkpoint. It may contain labeled candidate turns and ending assumptions. Prefer showing this imperfect whole over collecting detailed faction, character, or scene answers in advance.
 
 ## Stage 3: major character arcs
 
