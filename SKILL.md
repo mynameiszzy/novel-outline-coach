@@ -1,6 +1,6 @@
 ---
 name: novel-outline-coach
-description: Build, expand, diagnose, and repair fiction outlines with guided choices, the Snowflake Method, flexible three-act multi-line structure, scene planning, and evidence-based logic challenges. Use for 小说大纲、故事梗概、情节设计、人物弧光、多线叙事、章节规划、场景拆分、伏笔回收、剧情漏洞、逻辑审查、雪花写作法、三幕结构, or when an author has only a vague idea and wants options. Focus on outline development rather than prose imitation or routine line editing.
+description: Build, expand, diagnose, and repair fiction outlines with guided choices, a traceable Snowflake Method, flexible three-act multi-line structure, scene planning, and evidence-based logic challenges. Use for 小说大纲、故事梗概、情节设计、人物弧光、多线叙事、章节规划、场景拆分、伏笔回收、剧情漏洞、逻辑审查、雪花写作法、三幕结构, or when an author has only a vague idea and wants options. Focus on outline development rather than prose imitation or routine line editing.
 ---
 
 # Novel Outline Coach
@@ -10,7 +10,7 @@ Help the author turn a vague idea or partial draft into an author-approved, inte
 ## Core contract
 
 - Continue from the author's current material and stage; do not force a restart.
-- Prefer giving the author a usable whole-outline draft over prolonging discovery. Use explicit `candidate` assumptions to bridge non-critical gaps.
+- Prefer giving the author a usable whole-outline draft over prolonging discovery. Use explicit `candidate` assumptions to bridge non-critical gaps. When Snowflake is active, keep the draft visibly layered rather than flattening it into a generic synopsis.
 - Distinguish `confirmed`, `candidate`, `rejected`, `undecided`, and `conflict` information. Only confirmed information is canon.
 - Never silently turn a suggestion into canon. Confirm choices that materially affect premise, character motivation, structure, ending, or world rules.
 - When the author lacks an idea, use the option protocol in [guided-questioning.md](references/guided-questioning.md).
@@ -21,7 +21,7 @@ Help the author turn a vague idea or partial draft into an author-approved, inte
 
 ## Control interaction depth
 
-Infer both the working mode and the interaction pace. For a vague premise, default to **draft first**: synthesize what is known, fill non-critical gaps with labeled candidates, and show a provisional story promise plus beginning-to-end skeleton. Do not default to a long decision tree.
+Infer both the working mode and the interaction pace. For a vague premise, default to **draft first**: synthesize what is known, fill non-critical gaps with labeled candidates, and show a provisional Snowflake snapshot with its one-sentence promise and five-sentence causal skeleton. Do not default to a long decision tree or an unlabeled generic synopsis.
 
 - Use **fast** pace when the author wants an outline quickly, is testing the skill, gives short option answers, or expresses concern about length. Batch 3–5 independent structural decisions, or draft with candidate assumptions when questions are not yet necessary.
 - Use **standard** pace when the author wants collaborative development. Ask only decisions that materially change the next outline layer, and produce an interim artifact after no more than three consecutive question turns.
@@ -36,6 +36,17 @@ Classify unresolved details before asking:
 - **Can defer** — details that do not affect the current layer.
 
 Do not descend to scene-level design before a provisional one-paragraph synopsis exists, unless the user explicitly asks for a scene or that scene is the structural hinge being tested.
+
+## Make Snowflake observable
+
+When the author requests the Snowflake Method, starts from a vague premise, or asks to grow an outline progressively, read [snowflake-workflow.md](references/snowflake-workflow.md) and expose the method in the output.
+
+- Label the current layer and use stable IDs such as `SF-L1`, `SF-L2-S1`, and `SF-L3-C1`.
+- Make every lower-layer item identify the parent item it expands.
+- Do not introduce a new central conflict, major turn, ending, or scale at a lower layer without revising or flagging the affected upper layer.
+- At each layer boundary, run a compact causal-chain and story-drift check.
+- In fast pace, show several upper layers in one response, but preserve their IDs and mappings. Speed may compress interaction, not erase the expansion chain.
+- Apply three-act and multi-line structure only after the `SF-L2` causal skeleton exists. Use them to inspect the Snowflake, not replace it.
 
 ## Choose the working mode
 
@@ -63,7 +74,7 @@ Read only the references needed for the current task.
 
 1. Inspect the author's material and identify what is already confirmed.
 2. Identify the current reliable Snowflake layer and the smallest useful **deliverable**, not merely the next question.
-3. When enough material exists, create a provisional whole skeleton using labeled candidate assumptions.
+3. When enough material exists, create a provisional Snowflake snapshot using labeled candidate assumptions and parent-child mappings.
 4. Ask only the must-decide questions that block or materially reshape that deliverable; batch independent questions and keep options concise.
 5. Reflect confirmed decisions and consequences, then update the artifact rather than continuing an unbounded interview.
 6. Expand one useful layer at a time; keep lower-layer details as candidates until their layer is reached.
@@ -76,6 +87,7 @@ Read only the references needed for the current task.
 Create only the artifacts the project needs:
 
 - story promise and one-sentence premise;
+- Snowflake layer map, causal chain, and drift notes;
 - paragraph and extended synopsis;
 - character goals, conflicts, knowledge, and arcs;
 - three-act map and turning points;
