@@ -47,6 +47,8 @@ Never promote a candidate merely because it appeared in generated prose or a pri
 ---
 project: 小说名或代号
 stage: 当前阶段
+snowflake_layer: SF-L0 至 SF-L9
+approved_through: 已确认到的最高层或具体 ID
 updated: YYYY-MM-DD
 ---
 
@@ -69,6 +71,29 @@ updated: YYYY-MM-DD
 
 Read this file first when resuming, then open only the artifacts needed for the current decision.
 
+## Snowflake layer record
+
+When Snowflake is active, keep `01-核心故事.md` traceable:
+
+```markdown
+## SF-L1 故事承诺
+
+## SF-L2 五句因果骨架
+- SF-L2-S1 → parent: SF-L1
+- SF-L2-S2 → parent: SF-L1
+- SF-L2-S3 → parent: SF-L1
+- SF-L2-S4 → parent: SF-L1
+- SF-L2-S5 → parent: SF-L1
+
+## 因果链与漂移检查
+
+## SF-L3 人物雪花
+
+## 过期子项
+```
+
+Mark a descendant `stale` when an approved parent changes. Do not treat stale material as current canon until it is reconciled.
+
 ## Decision record
 
 For material choices, record:
@@ -87,11 +112,12 @@ Before applying a material change:
 
 1. identify the canon fact being replaced;
 2. search the project for its stable ID, name, consequences, setups, and payoffs;
-3. list affected artifacts and distinguish required from optional changes;
-4. present a concise change preview;
-5. update only after the author approves the creative change or has already explicitly requested the update;
-6. record the decision and leave unrelated prose intact;
-7. rerun the relevant logic checks.
+3. follow Snowflake parent-child IDs downward and list affected siblings and descendants;
+4. list affected artifacts and distinguish required from optional changes;
+5. present a concise change preview;
+6. update only after the author approves the creative change or has already explicitly requested the update;
+7. record the decision and leave unrelated prose intact;
+8. rerun causal, promise-drift, and relevant logic checks.
 
 If a change produces unresolved downstream choices, mark them `undecided` rather than inventing silent fixes.
 
